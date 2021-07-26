@@ -1,0 +1,66 @@
+/* my not so first CSS */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffcc;
+}
+img{
+    border: 10px solid lime;
+}
+h1{
+    border: 5px dotted palevioletred;
+    text-align: center;
+    background-color: mediumaquamarine;
+}
+blockquote{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    background: url("https://images.unsplash.com/photo-1536704231234-beca9772ca68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80") no-repeat center;
+    background-size: cover;
+}
+cite{
+    font-size: 2rem;
+}
+ol li{
+    line-height: 1.8rem;
+    color: #003a70;
+}
+#color{
+    background-color: lightsalmon;
+}
+#shadow{
+    text-shadow: 8px 10px 3px rgba(28,110,164,0.68);
+}
+a{
+    text-decoration: none;
+    color: darkorchid;
+}
+ul a:hover{
+    text-decoration: underline;
+    background-color: burlywood;
+}
+ul a{
+    /* padding-left: 10px; */
+    color: forestgreen;
+    text-decoration: none;
+    line-height: 1.3rem;
+}
+li#odd{
+    padding-left: 5px;
+}
+li#odd1{
+    padding-left: 10px;
+}
+li#odd2{
+    padding-left: 15px;
+}
+/* #odd::marker{
+    padding-left: 5px;
+}
+#odd1::marker{
+    padding-left: 10px; Play around these
+}
+li::marker{
+    padding-left: 15px;
+} */
